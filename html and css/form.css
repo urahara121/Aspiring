@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+
+h1{
+    color:crimson;
+    
+    
+    
+}
+button{
+    background-color:darksalmon;
+    color:crimson;
+    text-decoration:pink dotted underline;
+    cursor: pointer;
+}

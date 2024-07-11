@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cart{
+            height: 25px;
+            background-color:rgb(255,216,20);
+            color:black;
+            cursor: pointer;
+            border: none;
+            width:120px ;
+            border-radius:13px;
+            margin-right:10px;
+            transition:opacity 0.15s;
+
+        }
+        #buy{ height: 25px;
+            background-color:rgb(255,164,28);
+            color:black;
+            cursor: pointer;
+            border: none;
+            width:120px ;
+            border-radius:13px;
+            margin-right:10px;
+            transition:opacity 1s,background-color 0.3s,color 0.3s;
+            
+        }
+        #buy:hover{
+            opacity:0.6;
+        }
+        #buy:active{
+            background-color: black;
+            color: white;
+        }
+        
+        #link:hover{
+            color:crimson;
+        }
+        #cart:active{
+            opacity:0.6;
+        }
+
+        .click{
+
+            background-color: green;
+            color: white;
+            border: none;
+            height: 23px;
+            width: 70px;
+            cursor: pointer;
+            box-shadow:3px,3px,5px,rgba(0,0,0,0.7);
+            transition:height 0.4s;,width 0.5s;
+
+
+            
+
+        }
+
+        .click:hover{
+
+            height:30px;
+            width: 100px;
+
+
+
+
+            
+            
+            box-shadow: none;
+        }
+
+        
+        
+        
+
+    </style>
+    
+</head>
+<body>
+
+    <a  href="amazon.in" style="color:rgb(0,113,133);">
+        Back to Amazon
+    </a>
+
+    <p style="">
+        <h1><b>Nike Black Running Shoes</b></h1>
+    </p>
+
+    <p style="color: rgb(0,118,0); font-weight:bolder; font-size:20px;">
+        $39-in stock.
+    </p>
+    <p style="font-size: 20px; font-weight:510 ;">
+        Free delivery tommorow.
+    </p>
+    <button id="cart">
+        Add to cart
+    </button>
+    <button id="buy">
+    
+        Buy now
+    </button>
+
+    <p style="font-family:verdana;font-weight: bold; font-size: 19px;margin-bottom:5px; ">HTML CSS Course</p>
+    <p style="font-weight: lighter; color: grey;">Beginner to Pro</p>
+ 
+    
+    <button class="click">Shadow</button>
+    
+</body>
+</html>
